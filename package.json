@@ -1,0 +1,17 @@
+{
+  "name": "mini-card",
+  "version": "1.0.0",
+  "description": "mini card hover using atropos",
+  "main": "index.js",
+  "keywords": [
+    "atropos",
+    "html",
+    "tailwindcss",
+    "javascript"
+  ],
+  "author": "niroshkumar",
+  "license": "MIT",
+  "dependencies": {
+    "atropos": "^0.9.6"
+  }
+}

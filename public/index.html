@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CardHover</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .my-atropos {
+        width: 320px;
+        height: 160px;
+      }
+    </style>
+    <link rel="stylesheet" href="../node_modules/atropos/atropos.css" />
+  </head>
+  <body>
+    <div
+      class="
+        min-h-screen
+        flex flex-row
+        items-center
+        justify-center
+        bg-gradient-to-r
+        from-yellow-400
+        to-red-400
+        bg-no-repeat
+      "
+    >
+      <span class="atropos my-atropos">
+        <span class="atropos-scale">
+          <span class="atropos-rotate">
+            <div
+              class="atropos-inner rounded-lg absolute atropos-drurationEnter"
+            >
+              <img class="" src="./ninenine.jpg" data-atropos-offset="-5" />
+            </div>
+            <img
+              class="relative w-24 bottom-14 left-16"
+              src="./nineninelogo.png"
+              data-atropos-offset="0"
+            />
+          </span>
+        </span>
+      </span>
+    </div>
+    <script src="../node_modules/atropos/atropos.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
