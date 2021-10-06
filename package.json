@@ -1,7 +1,7 @@
 {
   "name": "mini-card",
   "version": "1.0.0",
-  "description": "mini card hover using atropos",
+  "description": "mini 3d parallax card hover using atropos",
   "main": "index.js",
   "keywords": [
     "atropos",
